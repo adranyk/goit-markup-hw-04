@@ -82,6 +82,11 @@ img {
   border: 1px solid #e7e9fc;
 }
 
+.button-item .button:hover {
+  box-shadow: 0px 3px 1px rgb(0 0 0 / 10%), 0px 2px 1px rgb(0 0 0 / 8%), 0px 2px 2px rgb(0 0 0 / 12%);
+  border: 1px solid var(--hover-and-background-color  );
+}
+
 /* .filter-buttons button {
   font-family: inherit;
   cursor: pointer;
@@ -94,7 +99,7 @@ img {
 } */
 .filter-buttons button:hover,  .filter-buttons button:focus{
   background-color: var(--hover-and-background-color);
-  color: #fff;
+  color: #fff;  
 }
 
 
@@ -189,6 +194,12 @@ img {
   font-weight: 500;
   line-height: 1.2;
 } */
+
+.benefits .item:hover {
+  box-shadow: 0px 1px 6px rgb(46 47 66 / 8%), 
+  0px 1px 1px rgb(46 47 66 / 16%), 
+  0px 2px 1px rgb(46 47 66 / 8%);
+}
 
 .benefits-list {
   text-align: left;
