@@ -219,7 +219,7 @@ img {
 }
 
 .item.astronaut::before{
-  background-image: url(/images/astronaut.svg);
+  background-image: url(../images/astronaut.svg);
 }
 
 
