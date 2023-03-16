@@ -415,19 +415,23 @@ img {
 }
 .customer-icon:hover {
   border: 1px solid var(--hover-and-background-color);
+  color: var(--hover-and-background-color);
+}
 
+.portfolio-text {
+  color: var(--main-text-color);
 }
 
 .customer-logo {
-  fill: #8e8f99;
+  fill: currentColor;
 }
 
-.customer-logo:hover {
+.customer-icon .customer-logo:hover {
   fill: var(--hover-and-background-color);
 }
 
 .customers-list .item {
-  width: calc((100% - 124px) / 6);
+  width: calc((100% - 120px) / 6);
 }
 
 .footer-social-links{margin-left: 120px;}
